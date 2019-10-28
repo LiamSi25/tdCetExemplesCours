@@ -2,7 +2,7 @@
 Procedure sPpI(E: n:entier, S: Som, prod : entier)
 Var 
 chiffre : entier
-Début
+DÃ©but
 	som <- 0
 	prod <- 0
 	tantque(n > 0) faire
@@ -50,7 +50,7 @@ void saisieEntierPositif(int* m){
 
 int main() {
 	int somme, produit, n = 0;
-	saisieEntierPositif(*n);
+	saisieEntierPositif(&n);
 	sPpI(n,&somme,&produit);
 	printf("Somme = %d\nproduit = %d\n", somme, produit);
 }
